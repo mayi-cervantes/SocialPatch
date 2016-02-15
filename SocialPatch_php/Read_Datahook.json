@@ -1,0 +1,14 @@
+{
+	"event": "Read_Data", 
+	"url": "http://ixd-socialpatch.uqcloud.net/pushData.php",
+	"requestType": "POST",
+	"form":
+	{
+		"thisdevice": "{{SPARK_CORE_ID}}",
+		"Type": "{{Type}}",
+		"Readings": "{{Readings}}",
+		"light": "{{light}}",
+		"eventID": "{{eventID}}"
+	},
+	"mydevices": false
+}
